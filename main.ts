@@ -5,7 +5,7 @@ namespace ChibiClip {
     //% blockId=chibiclip_activate
     //% block="activate pin at $index"
     //% index.min=0 index.max=9
-    //% parts=fakeneopixel
+    //% parts=chibiclip
     export function activatePin(index: number): void {
         writeValueToPin(index, 1);
     }
@@ -16,7 +16,7 @@ namespace ChibiClip {
     //% blockId=chibiclip_activate
     //% block="deactivate pin at $index"
     //% index.min=0 index.max=9
-    //% parts=fakeneopixel
+    //% parts=chibiclip
     export function deactivatePin(index: number): void {
         writeValueToPin(index, 0);
     }
