@@ -13,7 +13,7 @@ namespace ChibiClip {
     /**
      * Deactivate the pin at index
      */
-    //% blockId=chibiclip_activate
+    //% blockId=chibiclip_deactivate
     //% block="deactivate pin at $index"
     //% index.min=0 index.max=9
     //% parts=chibiclip
